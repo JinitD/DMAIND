@@ -1,0 +1,32 @@
+<div class="about-dos pb-4">
+  <div class="div uno col p-3">
+    <div class="card" data-aos="fade-right" data-aos-duration="1000">
+      <div class="titles p-2">
+        <h2>{{datas.[0].skills}}</h2>
+      </div>
+      <div class="row g-2">
+        {{#each datas.[1].img}}
+        <div class="img-materia col-3">
+          <img src="{{this}}">
+
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <div class="div dos col p-3" data-aos="fade-right" data-aos-duration="1000">
+    <div class="card">
+      <div class="titles p-2">
+        <p>
+          <this style="font-weight: bold;">{{datas.[0].carrera}}</this>
+          {{datas.[0].materias}}
+        </p>
+        <p>
+          <but style="font-weight: bold;">{{datas.[0].pero}}</but>
+          {{datas.[0].verdad}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

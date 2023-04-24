@@ -1,0 +1,23 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  
+}
+::-webkit-scrollbar {
+  display: none ;
+  width: 2px;
+  background-color: rgba(248, 249, 250, 0);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(99, 99, 99);
+  border-radius: 20px;
+}
+
+
+

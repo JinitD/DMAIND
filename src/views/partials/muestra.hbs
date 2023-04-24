@@ -1,0 +1,57 @@
+<div class="proyect pb-4">
+  <div class="proyect-uno p-3 " data-aos="fade-down" data-aos-duration="1000">
+    <a href="{{datas.[3].frApp.link}}" style="text-decoration: none;">
+    <div class="parf">
+      <h2 class="title">{{datas.[3].frApp.nombre}}</h2>
+    </div>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        {{#each datas.[3].frApp.img}}
+        <div class="carousel-item active">
+          <img src="{{this}}" class="img-proyecto d-block w-100" width="10">
+        </div>
+        {{/each}}
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    </a>
+  </div>
+
+
+
+
+  <div class="proyect-dos p-3" data-aos="fade-down" data-aos-duration="3000">
+    <a href="{{datas.[3].rmApp.link}}" style="text-decoration: none;">
+      <div class="parf">
+        <h2 class="title">{{datas.[3].rmApp.nombre}}</h2>
+      </div>
+      <div id="carouselExampleControlss" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {{#each datas.[3].rmApp.img}}
+          <div class="carousel-item active">
+            <img src="{{this}}" class="img-proyecto d-block w-100">
+          </div>
+          {{/each}}
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlss"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlss"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+</div>

@@ -1,0 +1,29 @@
+{
+  "name": "my-proyect",
+  "version": "1.0.0",
+  "description": "mi proyecto web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proyect",
+    "web"
+  ],
+  "author": "Jhoan Dorado",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.5",
+    "express-validator": "^6.14.2",
+    "firebase-admin": "^11.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

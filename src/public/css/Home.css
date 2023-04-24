@@ -1,0 +1,188 @@
+@media (max-width:1360px) {
+
+.divPort {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 47rem;
+}
+
+
+/*Css Home */
+
+.img.dmind {
+  width: 70%;
+  height: 100%;
+  border-radius: 100%;
+  border: solid 3px;
+  border-color: #c9c9c9;
+}
+
+.div.descrp {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+}
+
+/*Css Home */
+
+/*Css About-1-2 */
+#about,
+#skills,
+#contac {
+  background-color: rgb(33, 37, 41);
+}
+
+.about-uno,.about-dos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.div.dos img {
+  border: solid 3px;
+  border-color: #c9c9c9;
+  background-color: rgb(245, 245, 245);
+  border-radius: 15px;
+  width: 75%;
+}
+.concepto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+
+/*Css About 2*/
+
+.about-dos .div.uno .card .titles{
+  text-align: center;
+}
+.about-dos .div.uno .card .row .img-materia img{
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+}
+
+.about-dos .div.uno .card .row .img-materia img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: all .5s ease-in-out;
+}
+
+.uno {
+  width: 60%;
+}
+
+.dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: rgba(88, 88, 88, 0.13);
+}
+
+.tt,
+.subtt {
+  font-weight: bold;
+}
+
+.titles {
+  color: whitesmoke;
+  margin: 20px;
+}
+/*Css About-2 */
+
+
+/*Css proyect */
+.proyect{
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.proyect-uno, .proyect-dos{
+  width: 50%;
+}
+.proyect .img-proyecto{
+} 
+
+.parf{
+  width: 100%;
+}
+.proyect  .parf .title{
+  width: 100%;
+}
+.carousel {
+  border-radius: 15px;
+  border-color: #c9c9c9;
+  border: solid #c9c9c9;
+}
+
+.proyect img,.carousel-inner,.carousel-item {
+  border-radius: 15px;
+}
+
+.carousel.carousel-dark.slide {
+
+  filter: opacity(.7);
+  transition: all .5s ease-in-out;
+}
+
+.carousel.carousel-dark.slide:hover {
+  filter: opacity(1);
+  transition: all .5s ease-in-out;
+}
+
+
+
+/*Css contac */
+#contac {
+  padding: 1%;
+}
+
+.contact {
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid#dddddd;
+  border-radius: 15px;
+  width: 15%;
+}
+
+.ttCont {
+  font-size: medium;
+}
+
+.link {
+  text-decoration: none;
+
+}
+
+.contact .imgCont {
+  width: 100%;
+}
+
+
+  
+}
+
+/*Css contac */

@@ -1,0 +1,114 @@
+@media (max-width:500px) {
+
+    body,
+    .divHome,
+    .divPort {
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+
+    .divHome {
+        padding-top: 10%;
+    }
+
+    /** 
+* portada
+*/
+    .dmind.container {}
+
+    .dmind.div {}
+
+    .div.descrp {
+        width: 60%;
+    }
+
+    .div.descrp,
+    .text {
+        font-size: 100%;
+    }
+
+    div.img {
+        width: 40%;
+    }
+
+    .img.dmind {
+        width: 100%;
+    }
+
+    /*contendor portada */
+
+    /** 
+* About 1-2
+*/
+
+
+    .about-uno,
+    .about-dos {
+        padding: 0;
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .about-uno .div.uno {
+        width: auto;
+    }
+
+    .card {}
+
+    .about-uno .div.uno .titles {
+        font-size: 100%;
+    }
+
+    .about-uno .div.dos {
+        display: none;
+    }
+
+    /*contendor About  2*/
+
+    .about-dos .div.uno,
+    .about-dos .div.dos {
+        width: 100%;
+    }
+
+    /*contendor About  1-2*/
+    /*contendor proyecto*/
+    .proyect {
+        width: 100%;
+    }
+
+    .proyect .parf h2 {
+        font-size: medium;
+    }
+
+    .proyect-uno {
+        width: 100%;
+    }
+
+    .proyect-dos {
+        width: 100%;
+    }
+
+
+
+
+    /*contendor contac  */
+    .contact {
+        width: 40%;
+    }
+
+    .link {}
+
+    .contact .imgCont {
+        width: 70%;
+    }
+
+    .contactTex {}
+
+    .ttCont {
+        font-size: smaller;
+    }
+
+    /*contendor contac  */
+}
